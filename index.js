@@ -8,6 +8,7 @@ function nestedTarget() {
 
 function deepestChild() {
   return document.querySelector('#grand-node div div div div');
+<<<<<<< HEAD
 }
 
 function increaseRankBy(n) {
@@ -16,3 +17,6 @@ function increaseRankBy(n) {
       rankedLists[i].innerHTML= parseInt(rankedLists[i].innerHTML+n)
       }
 }
+=======
+}
+>>>>>>> ac8b5ae29f19b11ce7e372882659bfadb945abe7
